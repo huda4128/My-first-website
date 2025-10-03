@@ -1,0 +1,17 @@
+/* Assignment: position static */
+
+.container {
+  border: 2px solid black;
+  padding: 15px;
+  background: #f5f5f5;
+}
+
+.static-item {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  margin: 8px;
+  position: static; /* default */
+  top: 30px;   /* ignored */
+  left: 30px;  /* ignored */
+}
